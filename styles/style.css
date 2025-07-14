@@ -1,4 +1,6 @@
-
+body {
+    background-color: #F5F8FF;
+}
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -84,7 +86,7 @@ main {
 /* Productive Users Section style  */
 .productive-section {
     margin-top: 116px ;
-    margin-bottom: 137px;
+    /* margin-bottom: 137px; */
     margin-left:141px ;
     
     padding: 50px 80px;
@@ -115,4 +117,75 @@ main {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     gap: 0;
+}
+/* feedback section  */
+
+
+.feedback-section {
+    /* margin-top: 116px ; */
+    /* margin-bottom: 137px; */
+    margin-left:141px ;
+    
+    padding: 50px 80px;
+    
+    border-radius: 24px;
+  background-color: #f8f9fc;
+}
+.feedback-section h1 {
+    text-align: center;
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+.feedback-card-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  
+}
+
+.card-style {
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 24px;
+  width: 350px;
+}
+.card-style h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+
+    letter-spacing: -2%;
+}
+.card-style .card-para{
+    color: #1E1E1E;
+    font-size: 16px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  
+}
+
+.reviewer-name {
+  font-weight:600;
+  color: #757575;
+}
+
+.review-date {
+  color: #B3B3B3;
+  font-size: 16px;
 }
