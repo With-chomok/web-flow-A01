@@ -189,3 +189,37 @@ main {
   color: #B3B3B3;
   font-size: 16px;
 }
+
+
+
+/* focus section  */
+
+.focus-section {
+    margin-left:141px ;
+    padding: 71px 150px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    
+}
+.focus-section-content {
+    text-align: center;
+    
+}
+.focus-section-content h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-section-content p {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.focus-section-img img{
+    /* margin: 100px; */
+    margin-top: 50px;
+    
+    
+    /* width: 840px; */
+    height: 350px;
+    border-radius: 48px;
+    
+}
