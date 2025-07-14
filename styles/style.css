@@ -40,7 +40,10 @@ nav {
     border: none;
 }
 
+.btn-style:hover {
+    background-color: brown;
 
+}
 
 /* banner section  */
 .banner {
@@ -222,4 +225,41 @@ main {
     height: 350px;
     border-radius: 48px;
     
+}
+
+
+
+.touch-section-content {
+  margin: 37px 150px;
+  display: flex;
+  gap: 100px;
+  padding:0 71px;
+
+}
+
+
+.touch-section {
+  width: 50%;
+}
+.touch-section-title {
+    font-size: 90px;
+    font-weight:bold;
+    color: #000000;
+}
+.touch-section label {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.touch-section input[type="text"], .touch-section input[type="email"], .touch-section textarea{
+  /* height: 64px; */
+  border-radius: 10px;
+  background-color: white;
+  color: #757575;
+  display: block;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 24px;
+  border-color: rgba(0, 0, 0, 0.25);
+  outline: none;
 }
